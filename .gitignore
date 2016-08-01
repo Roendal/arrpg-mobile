@@ -56,3 +56,7 @@ test/cordova/AdTest
 node_modules
 
 npm-debug.log
+
+# Cordova
+/platforms
+/plugins
