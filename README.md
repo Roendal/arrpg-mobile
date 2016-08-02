@@ -1,12 +1,11 @@
-Polymer template
+Ionic template
 ==================
 
 ## Introduction
 
-This demo is based on ["Your first Polymer app" tutorial](https://www.polymer-project.org/0.5/docs/start/creatingelements.html) at Polymer's [Getting started section](https://www.polymer-project.org/0.5/docs/start/creatingelements.html).
+This demo is based on [Jeremy Wilken's](https://github.com/gnomeontherun) [Ionic demo](https://github.com/ionic-in-action/ionic-demo-resort-app). It has been adapted in order to have a cordova based structure. 
 
-
-This demo is built using [Polymer](https://www.polymer-project.org/0.5/) and [Cocoon Webview+](https://cocoon.io/doc/webview_plus) in portrait view and fullscreen. 
+This demo is built using [Ionic](http://ionicframework.com/) and [Cocoon Webview+](https://cocoon.io/doc/webview_plus) in portrait view and fullscreen.
 
 ## How to use this repo
 
@@ -36,19 +35,23 @@ As you can see, it is not neccessary to include *plugins*, *platforms* or *hooks
 
 ## References and useful links
 
-### About Polymer 
+### About Ionic 
 
-* [Polymer](https://www.polymer-project.org/0.5/)
-* Polymer documentation at [GitHub](https://github.com/Polymer/docs)
-* [Polymer in 10 minutes](https://www.polymer-project.org/0.5/docs/start/creatingelements.html)
-* [Getting started with Polymer](https://www.polymer-project.org/0.5/docs/start/tutorial/intro.html)
+* [Ionic](http://ionicframework.com/)
+* Ionic at [GitHub](https://github.com/driftyco/ionic)
+* [Ionic examples](http://ionicframework.com/examples/)
+* [Getting started with Ionic](http://ionicframework.com/getting-started/)
+* [Ionic documentation](http://ionicframework.com/docs/)
+
+### About the game 
+
+* Click [here](https://ionic-in-action.github.io/ionic-demo-resort-app/www/#/) to test this demo on your browser.
+* Demo original [source code](https://github.com/ionic-in-action/ionic-demo-resort-app)
+
+### About the author
+
+* [Jeremy Wilken](https://github.com/gnomeontherun)
 
 ### About us
 
 * Find us at [Cocoon.io](https://cocoon.io/)
-
-## License
-
-This game demo is licensed under the **Creative Commons Attribution 3.0 Unported** (CC BY-NC 4.0). See the [human-readable summary](http://creativecommons.org/licenses/by-nc/4.0/) or [legalcode](http://creativecommons.org/licenses/by-nc/4.0/legalcode) for details.
-
-Under this license you are permitted to remix/reuse/redistribute this work as long as you credit [Polymer](https://www.polymer-project.org/0.5/) for the original work. 

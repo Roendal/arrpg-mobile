@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cocoon.template.polymer.tutorial" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0">
-    <name>Polymer template</name>
+<widget id="io.cocoon.template.ionic" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0">
+    <name>Ionic template</name>
     <description>
-        Polymer template for Cocoon.io cloud compiler based on Getting started tutorial at https://www.polymer-project.org/0.5/docs/start/tutorial/intro.html
+        Ionic template for Cocoon.io cloud compiler based on Jeremy Wilken's app at https://github.com/ionic-in-action/ionic-demo-resort-app.
     </description>
-    <author email="polymer-dev@googlegroups.com" href="https://www.polymer-project.org/">
-        Polymer
+    <author href="https://twitter.com/gnomeontherun">
+        Jeremy Wilken
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -25,8 +25,11 @@
     </platform>
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
+    <cocoon:plugin name="cordova-plugin-splashscreen" />
     <cocoon:plugin name="com.ludei.webviewplus.ios" />
     <cocoon:plugin name="com.ludei.webviewplus.android" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
     <platform name="amazon-fireos">
         <icon density="ldpi" src="res/android/ldpi.png" />
         <icon density="mdpi" src="res/android/mdpi.png" />
@@ -42,6 +45,14 @@
         <icon density="xhdpi" src="res/android/xhdpi.png" />
         <icon density="xxhdpi" src="res/android/xxhdpi.png" />
         <icon density="xxxhdpi" src="res/android/xxxhdpi.png" />
+        <splash density="land-hdpi" src="res/screen/android/drawable-land-hdpi/screen.png" />
+        <splash density="land-ldpi" src="res/screen/android/drawable-land-ldpi/screen.png" />
+        <splash density="land-mdpi" src="res/screen/android/drawable-land-mdpi/screen.png" />
+        <splash density="land-xhdpi" src="res/screen/android/drawable-land-xhdpi/screen.png" />
+        <splash density="port-hdpi" src="res/screen/android/drawable-port-hdpi/screen.png" />
+        <splash density="port-ldpi" src="res/screen/android/drawable-port-ldpi/screen.png" />
+        <splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi/screen.png" />
+        <splash density="port-xhdpi" src="res/screen/android/drawable-port-xhdpi/screen.png" />
     </platform>
     <platform name="ios">
         <icon height="180" src="res/ios/icon-60@3x.png" width="180" />
@@ -59,7 +70,18 @@
         <icon height="58" src="res/ios/icon-small@2x.png" width="58" />
         <icon height="50" src="res/ios/icon-50.png" width="50" />
         <icon height="100" src="res/ios/icon-50@2x.png" width="100" />
+        <splash height="480" src="res/screen/ios/Default~iphone.png" width="320" />
+        <splash height="1136" src="res/screen/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1024" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="768" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="1334" src="res/screen/ios/Default-667h.png" width="750" />
+        <splash height="2048" src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="2208" src="res/screen/ios/Default-736h.png" width="1242" />
+        <splash height="1242" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
+        <splash height="960" src="res/screen/ios/Default@2x~iphone.png" width="640" />
+        <splash height="1536" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
     </platform>
-    <engine name="android" spec="~5.2.1" />
     <engine name="browser" spec="~4.1.0" />
+    <engine name="ios" spec="~4.2.0" />
+    <engine name="android" spec="~5.2.1" />
 </widget>
