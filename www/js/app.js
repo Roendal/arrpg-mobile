@@ -73,7 +73,7 @@ angular.module('App', ['ionic', 'firebase'])
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
-    if(window.cordova && window.cordova.plugins.Keyboard) {
+    if(window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
     if(window.StatusBar) {
@@ -81,7 +81,7 @@ angular.module('App', ['ionic', 'firebase'])
     }
   });
 
-  var firstVisit = localStorage.getItem('firstVisit');
+  var firstVisit = localStorage.getItem('authToken');
   if (!firstVisit) {
     $location.url('/tour');
   }
